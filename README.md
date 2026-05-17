@@ -1,12 +1,108 @@
-Electricity Theft Detection Using SOM
+# ⚡ Electricity Theft Detection using SOM (Self-Organizing Maps)
 
-This project detects electricity theft using SOM (Self-Organizing Map).
-The model learns from normal customer data to find unusual usage.
-It uses features like usage, appliances, residents, and bill delays.
-Extra features like Usage_per_Appliance help detect anomalies.
-Each customer gets a risk score for theft.
-Red dots = high risk, Green dots = normal.
-The SOM U-Matrix shows clusters and unusual patterns.
-The confusion matrix shows how well the model works.
-This helps find potential theft quickly.
-All code, data, and models are in this repository.
+This project detects electricity theft using an unsupervised machine learning approach based on **Self-Organizing Maps (SOM)**. It analyzes customer usage behavior and identifies abnormal consumption patterns indicating possible theft.
+
+---
+
+## 🚀 Project Overview
+
+- Uses **SOM (MiniSom)** for anomaly detection
+- Applies **feature engineering** on electricity consumption data
+- Generates **risk scores** for each user
+- Classifies users into **Normal / High Risk (Theft)** categories
+- Includes **visualization using U-Matrix and component planes**
+- Optimized using **F1-score based threshold tuning**
+
+---
+
+## 🧠 Machine Learning Approach
+
+- Self-Organizing Maps (Unsupervised Learning)
+- MinMax Scaling for normalization
+- Anomaly scoring using:
+  - Quantization Error
+  - U-Matrix distance
+- Threshold optimization using F1-score
+
+---
+
+## 📊 Features Used
+
+- Electricity usage patterns (kWh)
+- Appliance count & residents
+- Voltage fluctuations
+- Time-based features (sin/cos encoding)
+- Bill delay patterns
+- Previous theft history
+- Usage ratios & spike detection
+
+---
+
+## 📁 Project Structure
+
+```
+som_artifacts/
+├── scaler.pkl
+├── som_model.pkl
+├── u_matrix_norm.pkl
+├── risk_threshold.pkl
+├── training_results.csv
+├── som_u_matrix.png
+├── component_planes/
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+pip install numpy pandas matplotlib scikit-learn minisom joblib
+```
+
+---
+
+## ▶️ Run Project
+
+### Train Model
+```bash
+python electricity_theft_detection.py
+```
+
+### Test / Prediction
+```bash
+python prediction_script.py
+```
+
+---
+
+## 📈 Output
+
+- Risk Score per customer
+- Normal / Theft classification
+- SOM U-Matrix visualization
+- Component plane analysis
+- Confusion matrix + F1-score evaluation
+
+---
+
+## 📌 Key Highlights
+
+- Real-world inspired electricity fraud detection system
+- Combines unsupervised ML + anomaly detection
+- Fully explainable SOM visualization
+- Optimized threshold selection for best performance
+
+---
+
+## 🔮 Future Improvements
+
+- Real-time smart meter integration
+- Deep learning-based anomaly detection
+- Web dashboard for utility companies
+- Streaming data processing (IoT-based)
+
+---
+
+## 👨‍💻 Author
+
+Muhammad Hamza Shahzad
