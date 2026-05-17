@@ -85,7 +85,8 @@ python prediction_script.py
 ## 📊 Results
 
 ### SOM U-Matrix
-<img width="2388" height="2504" alt="som_u_matrix" src="https://github.com/user-attachments/assets/1c2777fd-a41d-451f-90de-4311f893a3e8" />
+
+<img width="765" height="685" alt="image" src="https://github.com/user-attachments/assets/96845553-ffa7-4c1a-9872-2b60cf6a5d19" />
 
 
 
