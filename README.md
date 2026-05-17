@@ -82,8 +82,13 @@ python prediction_script.py
 - SOM U-Matrix visualization
 - Component plane analysis
 - Confusion matrix + F1-score evaluation
+## 📊 Results
 
----
+### SOM U-Matrix
+<img width="2388" height="2504" alt="som_u_matrix" src="https://github.com/user-attachments/assets/1c2777fd-a41d-451f-90de-4311f893a3e8" />
+
+
+
 
 ## 📌 Key Highlights
 
