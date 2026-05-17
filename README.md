@@ -89,6 +89,7 @@ python prediction_script.py
 <img width="765" height="685" alt="image" src="https://github.com/user-attachments/assets/96845553-ffa7-4c1a-9872-2b60cf6a5d19" />
 
 
+<img width="438" height="143" alt="image" src="https://github.com/user-attachments/assets/d86eeb4a-2fa7-42fe-ad2e-ebc7ed4c8bff" />
 
 
 ## 📌 Key Highlights
